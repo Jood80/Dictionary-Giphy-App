@@ -26,7 +26,7 @@ As a user I should be able to type a word and see the meaning of it, and get gif
  - test.js
  - readme.md
  
- ## team
+ ## Team
  - [Sulieman](https://github.com/sulieman1)
  
 - [Someya](https://github.com/someyaaltous)
