@@ -20,10 +20,8 @@ As a user I should be able to type a word and see the meaning of it, and get gif
     - style.css
   - JS
     - dom.js
-    - index.js
     
  - index.html
- - test.js
  - readme.md
  
  ## Team
