@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
   input[type="submit"] {
-    background-color: #4caf50;
+    background-color: black;
     color: white;
     width: 300px;
     height: 100px;
@@ -23,7 +23,7 @@
     font-size: 40px;
     margin-top: 100px;
     margin-left: 20px;
-    border: 1px solid #4caf50;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -35,7 +35,7 @@
     font-size: 40px;
     margin-top: 100px;
     margin-left: 18px;
-    border: 1px solid #4caf50;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -45,7 +45,7 @@
     font-size: 40px;
     margin-left: 20px;
     margin-top: 100px;
-    color: #4caf50;
+    color: black;
   }
 
   img {
