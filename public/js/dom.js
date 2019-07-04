@@ -26,6 +26,8 @@ function translate(input, cb) {
 }
 
 document.getElementById("submit").addEventListener("click", function() {
+  var div = document.querySelector(".container");
+  div.innerText = "";
   var word = document.getElementById("word").value;
   translate(word, result => {
     console.log("result", result);
@@ -34,7 +36,7 @@ document.getElementById("submit").addEventListener("click", function() {
         result +
         "&api_key=p0FMwmf9fytJSZw4DQgJq6Vurt4S8oHv&limit=4",
       data => {
-        var div = document.querySelector(".container");
+        
         for (var i = 0; i < 4; i++) {
           var img = document.createElement("img");
           img.setAttribute("class", "image");
@@ -49,3 +51,18 @@ document.getElementById("submit").addEventListener("click", function() {
     );
   });
 });
+
+// document.getElementById("submit").addEventListener("click", function() {
+// var word = document.querySelector("#word").value;
+
+// translation(word,request(url,
+//     finalData =>{
+//      var img = document.createElement("img");
+//      img.setAttribute("class","image");
+//      img.src(`https://media.giphy.com/media/${
+//       finalData.data[0].id
+//     }/giphy.gif`);
+//     div.appendChild(img);
+//     }
+//   ));
+// });
